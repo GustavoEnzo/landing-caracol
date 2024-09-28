@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import celulares from './assets/imgs/celulares.svg';
 import logo from './assets/imgs/logo.svg';
 
+
 function App() {
   const [isVisible, setIsVisible] = useState(false);
   const [text, setText] = useState('');
@@ -46,9 +47,11 @@ function App() {
               <div className="text-center md:text-left text-white w-auto md:w-7/12 order-2 md:order-1">
                 <h1 className="text-xl font-bold md:text-3xl mb-2">Baixe Nosso App</h1>
                 <p className="text-sm md:text-lg mb-4">{text}</p>
-                <button className="bg-[#ffff] text-[#03a9f4] font-bold rounded-xl px-4 py-2 mb-4 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                <a href="/caracol.apk" download>
+                <button className="bg-[#ffff] text-[rgb(3,169,244)] font-bold rounded-xl px-4 py-2 mb-4 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   Faça o Download
                 </button>
+                </a>
               </div>
             </div>
           </div>
