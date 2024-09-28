@@ -25,7 +25,7 @@ function App() {
         } else {
           clearInterval(typingTimer);
         }
-      }, 40); 
+      }, 30); 
 
       return () => clearInterval(typingTimer);
     }
