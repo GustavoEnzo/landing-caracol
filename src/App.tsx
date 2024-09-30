@@ -35,7 +35,7 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <div className="bg-gradient-to-br from-[#03a9f4] to-[#00608d] flex-grow">
         <div className='w-full p-4 h-screen'>
-          <img src={logo} alt="" className='w-44 md:p-1 p-5 mx-auto md:mx-0' />
+          <img src={logo} alt="" className='w-44 md:p-1 p-7 mx-auto md:mx-0' />
           <div className="flex flex-col md:flex-row items-center gap-4">
             <img 
               src={celulares} 
@@ -45,7 +45,7 @@ function App() {
             <div className="text-center md:text-left w-auto md:w-7/12 order-2 md:order-1">
               <h1 className="text-xl font-bold text-[#ffd600] md:text-3xl mb-2">Baixe Nosso App</h1>
               <p className="font-light leading-relaxed text-sm md:text-lg text-white mb-4">{text}</p>
-              <a href="/caracol.apk" download>
+              <a href="public/caracol.apk" download>
                 <button className="text-[rgb(233,221,60)] font-semibold border-2 border-whiite rounded-xl px-4 py-2 mb-4 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[rgb(233,221,60)]">
                   Faça o Download
                 </button>
