@@ -8,8 +8,8 @@ function App() {
   const [title, setTitle] = useState('');
   const [isButtonVisible, setIsButtonVisible] = useState(false);
 
-  const description = "Caracol log é um aplicativo inovador de crowdshipping que conecta viajantes com espaço ocioso em suas malas a consumidores que precisam enviar ou receber pequenas encomendas.";
-  const fullTitle = "Baixe Nosso App";
+  const description = " Caracol log é um aplicativo inovador de crowdshipping que conecta viajantes com espaço ocioso em suas malas a consumidores que precisam enviar ou receber pequenas encomendas.";
+  const fullTitle = " Baixe Nosso App";
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -24,11 +24,11 @@ function App() {
       let index = 0;
       const typingTimer = setInterval(() => {
         if (index <= fullTitle.length) {
-          setTitle((prev) => fullTitle.substring(0, index));
+          setTitle(() => fullTitle.substring(0, index));
         }
 
         if (index <= description.length) {
-          setText((prev) => description.substring(0, index));
+          setText(() => description.substring(0, index));
         }
 
         if (index >= fullTitle.length && index >= description.length) {
