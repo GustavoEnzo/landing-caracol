@@ -45,7 +45,7 @@ function App() {
             <div className="text-center md:text-left w-auto md:w-7/12 order-2 md:order-1">
               <h1 className="text-xl font-bold text-[#ffd600] md:text-3xl mb-2">Baixe Nosso App</h1>
               <p className="font-light leading-relaxed text-sm md:text-lg text-white mb-4">{text}</p>
-              <a href="caracol.apk" download>
+              <a href="/caracol.apk" download>
                 <button className="text-[rgb(233,221,60)] font-semibold border-2 border-whiite rounded-xl px-4 py-2 mb-4 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[rgb(233,221,60)]">
                   Faça o Download
                 </button>
