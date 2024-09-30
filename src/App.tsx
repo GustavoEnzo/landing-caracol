@@ -53,9 +53,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-
-      <footer className="bg-gradient-to-bl from-[#00608d] to-[#03a9f4]  flex flex-col gap-3 p-4 text-center">
+        <footer className="  flex flex-col gap-3 p-4 text-center">
         <h1 className="text-xl font-normal text-[#ffff] mb-2">Redes Sociais</h1>
         <div className="flex justify-center ">
           <a href="https://www.instagram.com/caracologs" target="_blank" rel="noreferrer">
@@ -64,6 +62,9 @@ function App() {
         </div>
         <p className="font-light text-white text-xs md:text-sm">© 2024 Caracol Log. Todos os direitos reservados.</p>
       </footer>
+      </div>
+
+   
 
       <style>
         {`
@@ -72,6 +73,7 @@ function App() {
           body {
             font-family: 'Poppins', sans-serif;
             }
+            
           @keyframes slideIn {
             from {
               transform: translateX(100%);
