@@ -53,7 +53,7 @@ function App() {
             </div>
           </div>
         </div>
-        <footer className="  flex flex-col gap-3 p-4 text-center">
+        <footer className="  w-full flex flex-col gap-3 p-4 text-center">
         <h1 className="text-xl font-normal text-[#ffff] mb-2">Redes Sociais</h1>
         <div className="flex justify-center ">
           <a href="https://www.instagram.com/caracologs" target="_blank" rel="noreferrer">
