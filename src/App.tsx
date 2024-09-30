@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <div>
-        <div className="bg-gradient-to-r from-[#03a9f4] to-[#ffd600] min-h-screen">
+        <div className="bg-gradient-to-br from-[#03a9f4] to-[#ffe143] min-h-screen">
           <div className='w-full p-4 h-screen'>
             <img src={logo} alt="" className='w-44 md:p-1 p-5 mx-auto md:mx-0' />
             <div className="flex flex-col md:flex-row items-center gap-4">
